@@ -6,6 +6,7 @@ It automates the process of finding subdomains and checking which ones are live 
 Results in single click:
 - All found subdomains
 - Live subdomains filtered by httpx
+
 ---
 
 ## 🚀 Why Use XRecon?
@@ -15,6 +16,12 @@ Results in single click:
 - ⏱️ **Saves Time:** Automates enumeration and filtering — no more running tools one by one.
 - 📂 **Organized Output:** Saves all results in neat folders with separate files for raw and live subdomains.
 - ⚡ **Fast and Lightweight:** Uses passive methods only (safe for stealthy recon).
+
+---
+
+## 📸 Screenshot
+
+![XRecon Screenshot](ss.png)
 
 ---
 
