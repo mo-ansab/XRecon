@@ -1,30 +1,39 @@
 
-**XRecon** is a lightweight domain reconnaissance tool for ethical hackers and bug bounty hunters. It helps automate the first steps of recon — quickly and cleanly.
+
+**XRecon** is a powerful yet simple Bash-based subdomain reconnaissance tool built for bug bounty hunters, penetration testers, and cybersecurity researchers.
+
+It automates the process of finding subdomains and checking which ones are live — helping you save time for manual effort.
+Results in single click:
+- All found subdomains
+- Live subdomains filtered by httpx
+---
+
+## 🚀 Why Use XRecon?
+
+- ✅ **Beginner-Friendly:** No complex setups. Just run and get results.
+- 🧠 **Accurate Results:** Combines multiple trusted tools like `assetfinder`, `subfinder`, and `httpx`.
+- ⏱️ **Saves Time:** Automates enumeration and filtering — no more running tools one by one.
+- 📂 **Organized Output:** Saves all results in neat folders with separate files for raw and live subdomains.
+- ⚡ **Fast and Lightweight:** Uses passive methods only (safe for stealthy recon).
 
 ---
 
-## 🚀 Features
+## 🛠 Tools Used in XRecon
 
-- Collect subdomains using `assetfinder`
-- Perform subdomain brute-forcing using `sublist3r`
-- Probe for live hosts with `httpx`
-- Directory brute-forcing using `dirb`
-- Simple, clean output in a single folder
+- [`assetfinder`](https://github.com/tomnomnom/assetfinder) – Passive subdomain discovery
+- [`subfinder`](https://github.com/projectdiscovery/subfinder) – Fast and reliable subdomain enumeration
+- [`amass`](https://github.com/owasp-amass/amass) – OWASP passive subdomain scanner
+- [`httpx`](https://github.com/projectdiscovery/httpx) – HTTP probing for live subdomains
 
 ---
 
-## 📦 Requirements 
+## 📦 Commands
 
-Make sure the following tools are installed on your system:
-
-- `assetfinder`
-- `sublist3r`
-- `httpx`
-- `dirb`
-
-You can install them with:
+Make sure you have **Go** installed. Then run: 
 
 ```bash
-sudo apt install sublist3r dirb
-go install github.com/tomnomnom/assetfinder@latest
-go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+git clone https://github.com/mo-ansab/XRecon.git
+cd XRecon
+bash install.sh
+chmod +x XRecon.sh
+./XRecon.sh
