@@ -1,9 +1,8 @@
 # 🔍 XRecon 
-**Subdomain Reconnaissance Tool**
+**Automated Subdomain Reconnaissance Tool**
 
-**XRecon** is a powerful yet simple subdomain enumeration tool built for **bug bounty hunters**, **penetration testers**, and **cybersecurity researchers**.
-
-It automates the process of discovering subdomains and checking which ones are live, helping you save time and streamline your recon process.
+**XRecon** is simple but powerful subdomain enumeration tool built for **bug bounty hunters**, **penetration testers**, and **cybersecurity researchers**.
+It automates the process of discovering subdomains and checking which ones are live, helping you save time in recon.
 
 ---
 
@@ -15,11 +14,11 @@ Results in single click:
 
 ## 🚀 Why Use XRecon?
 
-- ✅ **Beginner-Friendly:** No complex setups. Just run and get results.
-- 🧠 **Accurate Results:** Combines multiple trusted tools like `assetfinder`, `subfinder`, and `httpx`.
-- ⏱️ **Saves Time:** Automates enumeration and filtering — no more running tools one by one.
-- 📂 **Organized Output:** Saves all results in neat folders with separate files for raw and live subdomains.
-- ⚡ **Fast and Lightweight:** Uses passive methods only (safe for stealthy recon).
+- **Beginner-Friendly:** No complex setups. Just run and get results.
+- **Accurate Results:** Combines multiple trusted tools like `assetfinder`, `subfinder`, and `httpx`.
+- **Saves Time:** Automates enumeration and filtering — no more running tools one by one.
+- **Organized Output:** Saves all results in neat folders with separate files for raw and live subdomains.
+- **Fast and Lightweight:** Uses passive methods only (safe for stealthy recon).
 - 🐱‍💻 **Perfect for Bug Bounty & OSINT Workflows**
 
 ---
